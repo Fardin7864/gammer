@@ -267,3 +267,59 @@ img {
 .header .home .home-img {
     flex: 1 0 50%;
 }
+
+
+
+
+
+/* Heros banner */
+.gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gamer .sec-img {
+    flex: 1 0 60%;
+}
+
+.gamer .sec-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1 0 40%;
+}
+
+.gamer .sec-text .section-title p {
+    text-align: right;
+}
+
+.gamer .sec-text .btn {
+    margin: 1rem 0;
+}
+
+.gamer .sec-text .blocqute {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .5rem;
+}
+
+.gamer .sec-text .blocqute .title {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.gamer .sec-text .blocqute .qute {
+    color: var(--dark);
+    text-align: right;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
