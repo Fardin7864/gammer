@@ -606,7 +606,7 @@ footer .container>span {
         display: flex;
         align-items: center;
         flex-direction: column;
-        background: url('../images/Group\ 14.png') no-repeat top left;
+        background: url('images/Group\ 14.png') no-repeat top left;
         background-size: cover;
         padding: 2rem;
 
